@@ -5,10 +5,10 @@
 -->
 
 <!--
-  emdaerHash:a1d5fe3f5694380aacb3e6929e6d4022
+  emdaerHash:1e0b0f7bb25c2974949a984f1639ecb0
 -->
 
-<h1 id="installation-img-align-right-src-logo-svg-alt-contenta-logo-title-contenta-logo-width-100-">Installation <img align="right" src="./logo.svg" alt="Contenta logo" title="Contenta logo" width="100"></h1>
+<h1 id="installation-img-align-right-src-logo-svg-alt-contenta-logo-title-contenta-logo-width-100-">Installation <img align="right" src="../logo.svg" alt="Contenta logo" title="Contenta logo" width="100"></h1>
 <p>In order to install ContentaJS you will need to meet the following requirements:</p>
 <ul>
 <li><code>nodejs</code> ^8.11.1 or higher.</li>
@@ -28,7 +28,7 @@ extracting it. In MacOS and Linux you can do:</p>
 <pre><code>
 curl -Lo contenta.tar.gz https://github.com/contentacms/contentajs/archive/master.tar.gz
 tar -xzf contenta.tar.gz
-mv contenta-master YOUR_PROJECT_NAME
+mv contentajs-master YOUR_PROJECT_NAME
 cd YOUR_PROJECT_NAME
 npm install
 git init && git add . && git ci -m 'feat: project initialization with Contenta JS'
